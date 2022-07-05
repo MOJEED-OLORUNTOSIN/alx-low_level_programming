@@ -1,28 +1,29 @@
-#include  <stdlib.h>
-#include  <time.h>
 #include <stdio.h>
+
 /**
- * main - Entry point
- * 
- * Return: Always 0 (Success/correct)
+ * main - prints all possible different combinations of two digits
+ * Return: ALways 0 (Success)
  */
 int main(void)
-{	
-int n;
-srand(time(0));
-n =rand() - RAND_MAX / 2;
-printf("Last digit of %d is %d ", n, n % 10);
-if (n % 10 > 5)
 {
-printf("and is greater than 5\n");
-}
-else if (n % 10 == 0)
+int n, m;
+
+for (n = 48; n <= 56; n++)
 {
-printf("Last digit of %i is %i and is 0\n", n, n % 10);
-}
-else
+for (m = 49; m <= 57; m++)
 {
-printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
+if (m > n)
+{
+putchar(n);
+putchar(m);
+if (n != 56 || m != 57)
+{
+putchar(',');
+putchar(' ');
 }
+}
+}
+}
+putchar('\n');
 return (0);
 }
