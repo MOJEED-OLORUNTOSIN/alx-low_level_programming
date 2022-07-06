@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - sums 3-5_cous - Entry point
- *  Return:  (0)
- */
+* main - sums 3-5_cous - Entry point
+*  Return:  (0)
+*/
 
 int main(void)
 {
