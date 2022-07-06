@@ -3,10 +3,10 @@
 int _putchar(char c);
 
 /**
- * print_times_table - print the times table until n
- *  @n: n times table
- *  Return: No return
- */
+* print_times_table - print the times table until n
+*  @n: n times table
+*  Return: No return
+*/
 
 void print_times_table(int n)
 
@@ -27,7 +27,7 @@ _putchar(' ');
 _putchar(' ');
 _putchar(' ');
 }
-_putchar((j * i) + '0'
+_putchar((j * i) + '0');
 }
 else if ((i * j) < 100)
 {
