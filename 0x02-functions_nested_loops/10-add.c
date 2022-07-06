@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * add -prints add two numbers
- * @i: print int i
- * Return: Always 0.
- */
+* add -prints add two numbers
+* @i: print int 
+* @k: print int k
+* Return: Always 0.
+*/
 
 int add(int i, int k)
 {
