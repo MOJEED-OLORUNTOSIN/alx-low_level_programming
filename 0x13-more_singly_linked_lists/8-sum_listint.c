@@ -5,6 +5,7 @@
   * @head: A pointer listint_t structure
   * Return: The sum of all the data n from list
   */
+
 int sum_listint(listint_t *head)
 {
 	int sum = 0;
